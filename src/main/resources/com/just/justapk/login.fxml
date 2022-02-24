@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1550.0" style="-fx-background-color: #003e53;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.just.justapk.LoginControll">
+   <children>
+      <ParallelCamera layoutX="633.0" layoutY="444.0" />
+      <AnchorPane layoutX="155.0" layoutY="59.0" prefHeight="659.0" prefWidth="1193.0" style="-fx-background-color: #fff; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="161.0" fitWidth="167.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Jamhuriya.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="211.0" layoutY="37.0" prefHeight="56.0" prefWidth="915.0" text="JAMHUURIYA UNIVERSITY" textFill="#0e3cf7">
+               <font>
+                  <Font name="System Bold" size="65.0" />
+               </font>
+            </Label>
+            <Label layoutX="95.0" layoutY="106.0" prefHeight="56.0" prefWidth="915.0" style="-fx-alignment: center;" text="Home Of Quality Education" textFill="#5b6eb7">
+               <font>
+                  <Font name="Harrington" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="432.0" layoutY="169.0" prefHeight="50.0" prefWidth="271.0" style="-fx-alignment: center; -fx-underline: dash;" text="ADMIN BOARD">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="33.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="84.0" fitWidth="77.0" layoutX="367.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Sample_User_Icon.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="username" cache="true" cacheHint="SPEED" layoutX="457.0" layoutY="281.0" prefHeight="42.0" prefWidth="338.0" promptText="Enter Username">
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font name="Garamond Bold" size="25.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="84.0" fitWidth="77.0" layoutX="369.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/lock.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="402.0" layoutY="207.0" prefHeight="0.0" prefWidth="196.0" style="-fx-alignment: center; -fx-underline: dash;" text="LOGIN">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passcode" layoutX="455.0" layoutY="361.0" prefHeight="49.0" prefWidth="344.0" promptText="Enter Password">
+               <font>
+                  <Font name="Garamond Bold" size="23.0" />
+               </font>
+            </PasswordField>
+            <CheckBox graphicTextGap="3.0" layoutX="457.0" layoutY="424.0" lineSpacing="10.0" mnemonicParsing="false" prefHeight="7.0" prefWidth="218.0" text="Remember me?" textFill="#4930c4" textOverrun="LEADING_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </CheckBox>
+            <Button fx:id="login" layoutX="503.0" layoutY="477.0" mnemonicParsing="false" onAction="#Login" prefHeight="42.0" prefWidth="194.0" style="-fx-background-radius: 20; -fx-background-color: blue;" text="LOGIN" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="505.0" layoutY="540.0" prefHeight="18.0" prefWidth="146.0" text="Don't Have Account?">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="create" defaultButton="true" layoutX="608.0" layoutY="531.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="40.0" prefWidth="121.0" style="-fx-background-color: transparent;" text="Create" textFill="#b91616">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="532.0" layoutY="621.0" prefHeight="18.0" prefWidth="146.0" text="POWERED BY ENG-CJ" textFill="#c4b0b0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow height="13.98" radius="5.32" spread="0.04" width="9.3" />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

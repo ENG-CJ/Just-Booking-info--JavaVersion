@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="670.0" prefWidth="500.0" style="-fx-background-radius: 30;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.just.justapk.CreateControll">
+   <children>
+      <CubicCurve controlX1="-50.0" controlX2="25.824127197265625" controlY1="-100.0" controlY2="356.596435546875" endX="349.47943115234375" endY="-3.393648147583008" fill="DODGERBLUE" layoutX="154.0" layoutY="-11.0" startX="-379.320556640625" startY="8.200239181518555" stroke="BLACK" />
+      <Label layoutX="125.0" layoutY="1.0" prefHeight="87.0" prefWidth="296.0" text="CREATE ACCOUNT" textFill="#fafafa">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="157.0" prefHeight="30.0" prefWidth="149.0" text="Name" textFill="#033ec9">
+         <font>
+            <Font name="Gadugi Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="97.0" layoutY="187.0" prefHeight="30.0" prefWidth="235.0" promptText="Enter Your Full Name">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="94.0" layoutY="232.0" prefHeight="30.0" prefWidth="149.0" text="Registred Date" textFill="#033ec9">
+         <font>
+            <Font name="Gadugi Bold" size="19.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="date" editable="false" layoutX="93.0" layoutY="260.0" prefHeight="30.0" prefWidth="240.0" promptText="Select Registred Date" />
+      <Label layoutX="96.0" layoutY="304.0" prefHeight="30.0" prefWidth="149.0" text="Email Address" textFill="#033ec9">
+         <font>
+            <Font name="Gadugi Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="97.0" layoutY="335.0" prefHeight="30.0" prefWidth="235.0" promptText="example@gmail.com">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="96.0" layoutY="385.0" prefHeight="30.0" prefWidth="149.0" text="Password" textFill="#033ec9">
+         <font>
+            <Font name="Gadugi Bold" size="19.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pass" layoutX="97.0" layoutY="422.0" prefHeight="30.0" prefWidth="235.0" promptText="New Password">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="96.0" layoutY="478.0" prefHeight="30.0" prefWidth="149.0" text="Confirm" textFill="#033ec9">
+         <font>
+            <Font name="Gadugi Bold" size="19.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="confirm" layoutX="97.0" layoutY="515.0" prefHeight="30.0" prefWidth="235.0" promptText="Repeat Your Password">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </PasswordField>
+      <ImageView fx:id="back" fitHeight="35.0" fitWidth="30.0" layoutX="21.0" layoutY="51.0" onMouseClicked="#BackToTheLogin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <ColorAdjust brightness="0.64" contrast="0.06" hue="-0.11" saturation="0.17" />
+         </effect>
+      </ImageView>
+      <Button fx:id="create" layoutX="133.0" layoutY="574.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="38.0" prefWidth="166.0" style="-fx-alignment: center; -fx-background-color: #6c3fff; -fx-background-radius: 20;" text="Create" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

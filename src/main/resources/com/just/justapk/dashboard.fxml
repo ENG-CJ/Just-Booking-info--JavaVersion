@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="800.0" prefWidth="1550.0" style="-fx-background-color: #d4e4ed;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.just.justapk.DashboardControl">
+   <children>
+      <Polygon fill="DODGERBLUE" layoutX="502.0" layoutY="310.0" points="-501.99993896484375, 118.00003051757812, 1047.9998779296875, -310.0, -501.9999694824219, -310.0" stroke="BLACK" strokeType="INSIDE" />
+      <Pane layoutX="101.0" layoutY="261.0" prefHeight="240.0" prefWidth="251.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="132.0" layoutX="57.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/home.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="51.0" layoutY="134.0" prefHeight="51.0" prefWidth="145.0" style="-fx-alignment: center;" text="HOME" textFill="#390bc1">
+               <font>
+                  <Font name="Consolas" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="376.0" layoutY="181.0" prefHeight="240.0" prefWidth="251.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="109.0" fitWidth="102.0" layoutX="82.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/setting.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="3.34">
+                     <bumpInput>
+                        <Shadow height="0.0" radius="5.92" width="25.68" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant>
+                           <color>
+                              <Color red="0.8526315689086914" green="0.050526317209005356" blue="0.050526317209005356" />
+                           </color>
+                        </Light.Distant>
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="138.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="Configure" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="165.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="All Setting" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="674.0" layoutY="121.0" prefHeight="240.0" prefWidth="251.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="81.0" fitWidth="89.0" layoutX="78.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/report.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="3.34">
+                     <bumpInput>
+                        <Shadow height="0.0" radius="5.92" width="25.68" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant>
+                           <color>
+                              <Color red="0.8526315689086914" green="0.050526317209005356" blue="0.050526317209005356" />
+                           </color>
+                        </Light.Distant>
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="47.0" layoutY="124.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="Generate" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="43.0" layoutY="157.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="Reports" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="104.0" layoutY="530.0" prefHeight="240.0" prefWidth="251.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="132.0" layoutX="57.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/student.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="134.0" prefHeight="51.0" prefWidth="145.0" style="-fx-alignment: center;" text="Students" textFill="#390bc1">
+               <font>
+                  <Font name="Consolas" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="379.0" layoutY="450.0" prefHeight="240.0" prefWidth="251.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="109.0" fitWidth="102.0" layoutX="82.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/setting.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="3.34">
+                     <bumpInput>
+                        <Shadow height="0.0" radius="5.92" width="25.68" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant>
+                           <color>
+                              <Color red="0.8526315689086914" green="0.050526317209005356" blue="0.050526317209005356" />
+                           </color>
+                        </Light.Distant>
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="138.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="Configure" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="165.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="All Setting" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="677.0" layoutY="390.0" prefHeight="240.0" prefWidth="251.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fx:id="attendance" fitHeight="102.0" fitWidth="134.0" layoutX="64.0" layoutY="34.0" onMouseClicked="#attendanceSearch" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/attendance.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="3.34">
+                     <bumpInput>
+                        <Shadow height="0.0" radius="5.92" width="25.68" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant>
+                           <color>
+                              <Color red="0.8526315689086914" green="0.050526317209005356" blue="0.050526317209005356" />
+                           </color>
+                        </Light.Distant>
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="42.0" layoutY="124.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="Search" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="158.0" prefHeight="48.0" prefWidth="161.0" style="-fx-alignment: center;" text="Attendance" textFill="#390bc1">
+               <font>
+                  <Font name="MS Reference Sans Serif" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <LineChart fx:id="linechart" layoutX="934.0" layoutY="186.0" prefHeight="594.0" prefWidth="622.0" title="Current Session">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Label layoutX="24.0" layoutY="11.0" prefHeight="58.0" prefWidth="670.0" text="JAMHUURIYA  INFO BOOKIG" textFill="WHITE">
+         <font>
+            <Font name="Californian FB" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="49.0" prefHeight="58.0" prefWidth="670.0" text="Generate Booking management Using This Menify" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="logout" fitHeight="41.0" fitWidth="41.0" layoutX="1490.0" layoutY="29.0" onMouseClicked="#Logout" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bt8.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
